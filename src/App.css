@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.imageZoom {
+  margin-top: 15px;
+  display: flex;
+}
