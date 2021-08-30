@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Home from "./Component/Home/Home";
 import ImageZoom from "./Component/ImageZoom/ImageZoom";
+import ReactTable from "./Component/ReactTable/ReactTable";
 import ScrollTopBar from "./Component/ScrollTopBar/ScrollTopBar";
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
         </Route>
         <Route path="/scroll-top-bar">
           <ScrollTopBar></ScrollTopBar>
+        </Route>
+        <Route path="/react-table">
+          <ReactTable></ReactTable>
         </Route>
         <Route exact path="/">
           <Home />

@@ -15,6 +15,9 @@ const Home = () => {
           <li>
             <Link to="/scroll-top-bar">Scroll top bar</Link>
           </li>
+          <li>
+            <Link to="/react-table">React Table</Link>
+          </li>
         </ul>
       </nav>
 
