@@ -13,7 +13,7 @@ const Home = () => {
             <Link to="/image-zoom">Image Zoom</Link>
           </li>
           <li>
-            <Link to="/users">Users</Link>
+            <Link to="/scroll-top-bar">Scroll top bar</Link>
           </li>
         </ul>
       </nav>

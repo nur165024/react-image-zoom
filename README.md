@@ -4,4 +4,4 @@
 
 -[Image Zoom]
 
--[Onclik scroll top]
+-[Onclick scroll top]

@@ -35,3 +35,18 @@ nav ul li a {
   text-transform: capitalize;
   letter-spacing: 1px;
 }
+.btnButton {
+  position: relative;
+}
+.btnButton button {
+  position: fixed;
+  bottom: 15px;
+  right: 10px;
+  background-color: red;
+  color: #fff;
+  width: 100px;
+  height: 60px;
+  border: 1px solid red;
+  border-radius: 5px;
+  cursor: pointer;
+}
