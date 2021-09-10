@@ -18,6 +18,9 @@ const Home = () => {
           <li>
             <Link to="/react-table">React Table</Link>
           </li>
+          <li>
+            <Link to="/re-tree-select">Re Tree Select</Link>
+          </li>
         </ul>
       </nav>
 
