@@ -50,3 +50,26 @@ nav ul li a {
   border-radius: 5px;
   cursor: pointer;
 }
+
+.categoryList {
+  position: relative;
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  list-style-type: none;
+}
+.categoryList button {
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 1px solid #8b8b8b;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* .children {
+  position: absolute;
+  left: 27px;
+  top: 30px;
+} */

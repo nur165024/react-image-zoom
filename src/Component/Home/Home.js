@@ -19,7 +19,7 @@ const Home = () => {
             <Link to="/react-table">React Table</Link>
           </li>
           <li>
-            <Link to="/re-tree-select">Re Tree Select</Link>
+            <Link to="/category">Category</Link>
           </li>
         </ul>
       </nav>

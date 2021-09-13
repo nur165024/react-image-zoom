@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
+import Category from "./Component/Category/Category";
 import Home from "./Component/Home/Home";
 import ImageZoom from "./Component/ImageZoom/ImageZoom";
 import ReactTable from "./Component/ReactTable/ReactTable";
@@ -19,9 +20,9 @@ function App() {
         <Route path="/react-table">
           <ReactTable></ReactTable>
         </Route>
-        {/* <Route path="/re-tree-select">
-          <RE_Tree_Select></RE_Tree_Select>
-        </Route> */}
+        <Route path="/category">
+          <Category></Category>
+        </Route>
         <Route exact path="/">
           <Home />
         </Route>
