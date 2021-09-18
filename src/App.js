@@ -6,6 +6,7 @@ import Home from "./Component/Home/Home";
 import ImageZoom from "./Component/ImageZoom/ImageZoom";
 import ReactTable from "./Component/ReactTable/ReactTable";
 import ScrollTopBar from "./Component/ScrollTopBar/ScrollTopBar";
+import ShoppingCard from "./Component/ShoppingCard/ShoppingCard";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         </Route>
         <Route path="/category">
           <Category></Category>
+        </Route>
+        <Route path="/shopping-card">
+          <ShoppingCard></ShoppingCard>
         </Route>
         <Route exact path="/">
           <Home />

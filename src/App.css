@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
 }
-
 .container {
   width: 100%;
   max-width: 1300px;
@@ -50,7 +49,6 @@ nav ul li a {
   border-radius: 5px;
   cursor: pointer;
 }
-
 .categoryList {
   position: relative;
   display: flex;
@@ -67,9 +65,18 @@ nav ul li a {
   cursor: pointer;
   border-radius: 5px;
 }
+.shopppingCartList {
+  overflow-y: scroll;
+  position: fixed;
+  width: 350px;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  background-color: #ccc;
+  transform: translateX(350px);
+  transition: ease 0.3s all;
+}
 
-/* .children {
-  position: absolute;
-  left: 27px;
-  top: 30px;
-} */
+.showSideBar {
+  transform: translateX(0);
+}

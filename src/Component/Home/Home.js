@@ -21,6 +21,9 @@ const Home = () => {
           <li>
             <Link to="/category">Category</Link>
           </li>
+          <li>
+            <Link to="/shopping-card">Shopping Card</Link>
+          </li>
         </ul>
       </nav>
 
